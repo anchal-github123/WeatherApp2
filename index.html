@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="Style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Wreather Card ---------------------------------- -->
+     <section class="Wreather_card_sec">
+        <div class="container">
+            <div class="sreachbox">
+                <div class="user-sreach-bar">
+                    <input type="text" placeholder="Enter The Location" class="inputBox"></div>
+                <div class="sreach_btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="name_of_city"></div>
+            <div class="weather_icon">
+                <img class="weather_img" src="./Public/Clear.png" width="80rem"></img>
+
+            </div>
+            <div class="weather_temp_sec">
+                <h1 class="weather_temp">0</h1>
+                <h2 class="Wreather_name">Weather</h2>
+
+            </div>
+            <div class="wether_other_data">
+                <div class="humidity">
+                    <div class="humidity_icon"><i class="fa-solid fa-smog"></i></div>
+                    <p class="humudity-num">0</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="windspeed">
+                    <div class="windspeed_icon"><i class="fa-solid fa-wind"></i></div>
+                    <p class="windsped-num">0</p>
+                    <p>windspeed</p>
+                </div>
+
+            </div>
+
+        </div>
+     </section>
+     
+     
+     <script src="weather.js">
+
+     </script>
+    
+</body>
+</html>

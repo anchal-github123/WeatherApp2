@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:0px;
+}
+.Wreather_card_sec{
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+.container{
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    .sreachbox{
+        display: flex;
+        align-items: center;
+        gap:1rem;
+        .user-sreach-bar{
+            input{
+                outline: none;
+                border: none;
+                padding: 0.5rem;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                box-shadow: 2px 2px 3px gray;
+}
+        }
+
+
+        .sreach_btn{
+            /* border: 2px solid; */
+            padding: 5px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            background-color: aliceblue;
+            box-shadow: 2px 2px 3px gray;
+}
+
+
+    }
+    .weather_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+ 
+        img{
+         
+            border-radius:50%;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            -ms-border-radius:50%;
+            -o-border-radius:50%;
+          
+}
+
+}
+.weather_temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+   
+}
+.wether_other_data{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:4rem;
+   div{
+    padding: 3px;
+   }
+    
+}
+.name_of_city{
+   
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+@media (width<340px)
+{
+
+    html{
+        font-size: 
+        1rem;
+    }
+    .container{
+padding: 1rem;
+    }
+
+    .weather_icon{
+        img{
+        width:30% ;
+    }
+    }
+
+}
